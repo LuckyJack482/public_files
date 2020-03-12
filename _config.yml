@@ -13,5 +13,5 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
   - homework40.md
-  - homework40/homework40.md
+  - homework40/nuovo.md
 theme: jekyll-theme-minimal
