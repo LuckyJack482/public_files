@@ -1,0 +1,50 @@
+* {
+  background: #1f1f1f;
+  color: white;
+}
+@media (prefers-color-scheme: light) {
+  background: #bcd;
+  color: #334;
+}
+
+table{
+  table-layout: auto;
+  width: 95%;
+}
+
+code {
+  font-family: "Fira Mono";
+}
+
+thead > tr {
+  font-size: 140%;
+  height: 2em;
+}
+
+td, th{
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* tbody > tr:nth-of-type(even) {
+  background-color: #eee;
+} */
+
+/*
+col.codice{
+  background-color: yellow;
+}
+*/
+  
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20;
+  vertical-align: middle;
+}
+
+.ita-logo{
+  height: 2em;
+}
