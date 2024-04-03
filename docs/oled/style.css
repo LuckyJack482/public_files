@@ -1,5 +1,12 @@
 /* Startpage  Css
    By Dylan Araps */
+
+@property --main-width {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 750px;
+}
+
 html,
 body,
 ul {
@@ -28,20 +35,20 @@ h1 {
   display: block;
   margin: 0 auto;
   text-align: left;
-  width: 550px;
+  width: var(--main-width);
 }
 
 hr {
   border: 0;
   border-top: 1px solid #658389;
   opacity: .4;
-  width: 550px;
+  width: var(--main-width);
 }
 
 ul {
   display: block;
   margin: 0 auto;
-  width: 550px;
+  width: var(--main-width);
 }
 
 li {
@@ -61,4 +68,14 @@ a {
 
 a:hover {
   color: #666666;
+}
+
+footer {
+  color: #666666;
+  text-align: right;
+  margin-right: 5em;
+}
+
+details.li {
+  font-size: 12em;
 }
