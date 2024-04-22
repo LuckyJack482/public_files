@@ -1,0 +1,19 @@
+body, html {
+  padding: 1em 1em 1em 1em;
+  background-color: #010409;
+  color: #e6edf3;
+  font-family: Roman, serif;
+  font-size: 20pt;
+}
+
+main {
+  position: relative;
+  margin-bottom: 3em;
+  border-width: 3px;
+  border-color: #424242;
+  border-style: solid;
+}
+
+a{
+  color: #4493d6;
+}
